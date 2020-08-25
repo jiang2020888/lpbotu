@@ -1,0 +1,55 @@
+.jiang-scenery {
+    position: relative;
+    width: 800px;
+    height: 450px;
+}
+.jiang-scenery-image {
+    display: none;
+}
+.jiang-scenery-image-active {
+    display: inline-block;
+}
+.jiang-scenery-button {
+    width: 30px;
+    height: 50px;
+    color: #fff;
+    background: black;
+    opacity: 0.8;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+}
+.jiang-scenery-button:hover {
+    cursor: pointer;
+}
+.jiang-left {
+    left: 0;
+}
+.jiang-right {
+    right: 0;
+}
+.jiang-vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.jiang-scenery-dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+.jiang-scenery-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 2px;
+    border-radius: 50%;
+    background: blue;
+}
+.jiang-scenery-dot:hover {
+    cursor: pointer;
+}
+.jiang-dot-active {
+    background: white;
+}

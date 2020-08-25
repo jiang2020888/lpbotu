@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>轮播图</title>
+        <link rel="stylesheet" href="jiang.css">
+    </head>
+    <body>
+        <div class="jiang-scenery" data-imgs="4" data-active="0">
+            <div class="jiang-scenery-images">
+                <img id="id-image-0" class="jiang-scenery-image jiang-scenery-image-active" src="images/1.png" alt="castle">
+                <img id="id-image-1" class="jiang-scenery-image" src="images/2.png" alt="seagull">
+                <img id="id-image-2" class="jiang-scenery-image" src="images/3.png" alt="road">
+                <img id="id-image-3" class="jiang-scenery-image" src="images/4.png" alt="lighthouse">
+            </div>
+            <div class="jiang-scenery-buttons">
+                <button class="jiang-scenery-button jiang-left jiang-vertical-center"
+                    data-offset="-1">&lt;</button>
+                <button class="jiang-scenery-button jiang-right jiang-vertical-center"
+                    data-offset="1">&gt;</button>
+            </div>
+            <div class="jiang-scenery-dots">
+                <div id="id-dot-0" class="jiang-scenery-dot jiang-dot-active" data-index="0"></div>
+                <div id="id-dot-1" class="jiang-scenery-dot" data-index="1"></div>
+                <div id="id-dot-2" class="jiang-scenery-dot" data-index="2"></div>
+                <div id="id-dot-3" class="jiang-scenery-dot" data-index="3"></div>
+            </div>
+        </div>
+        <script src="jiang.js"></script>
+        <script src="lpbotu.js"></script>
+    </body>
+</html>
